@@ -46,6 +46,7 @@ main{
 .card{
     width: calc((100% / 5) - 30px);
     margin: 50px 15px;
+    border-radius: 5px;
     overflow: hidden;
     /* Glass effect */
     background: linear-gradient(
@@ -61,6 +62,7 @@ main{
 
 .card:hover  .card_text{
     color:whitesmoke;
+    background-color:#131313d8 ;
 }
 
 .card .card_img{
