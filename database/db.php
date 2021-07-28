@@ -8,16 +8,16 @@ $records =[
         'poster' => "https://static.billboard.com/files/media/maggie-rogers-heard-it-in-a-past-life-album-art-2019-billboard-1240-compressed.jpg"
     ],
     [
-        'title' => "Forever Neverland",
-        'author' => "MØ",
-        'year' => 2018,
-        'poster' => "https://static.billboard.com/files/media/mo-forever-neverland-album-art-2018-billboard-embed-compressed.jpg"
-    ],
-    [
         'title' => "Melodrama",
         'author' => "Lorde",
         'year' => 2016,
         'poster' => "https://static.billboard.com/files/media/03-lorde-melodrama-album-art-2017-billboard-1240-compressed.jpg"
+    ],
+    [
+        'title' => "LP1",
+        'author' => "FKA Twigs",
+        'year' => 2014,
+        'poster' => "https://static.billboard.com/files/media/FKA-Twigs-LP1-album-covers-billboard-1000x1000-compressed.jpg"
     ],
     [
         'title' => "Pure Comedy",
@@ -38,10 +38,10 @@ $records =[
         'poster' => "https://static.billboard.com/files/media/12-Hurts-Surrender-best-album-art-2015-billboard-1500-compressed.jpg"
     ],
     [
-        'title' => "LP1",
-        'author' => "FKA Twigs",
-        'year' => 2014,
-        'poster' => "https://static.billboard.com/files/media/FKA-Twigs-LP1-album-covers-billboard-1000x1000-compressed.jpg"
+        'title' => "Forever Neverland",
+        'author' => "MØ",
+        'year' => 2018,
+        'poster' => "https://static.billboard.com/files/media/mo-forever-neverland-album-art-2018-billboard-embed-compressed.jpg"
     ],
     [
         'title' => "Born in the U.S.A.",
@@ -56,10 +56,10 @@ $records =[
         'poster' => "https://static.billboard.com/files/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000-compressed.jpg"
     ],
     [
-        'title' => "Maggot Brain",
-        'author' => "Funkadelic",
-        'year' => 1971,
-        'poster' => "https://static.billboard.com/files/media/Funkadelic-Maggot-Brain-album-covers-billboard-1000x1000-compressed.jpg"
+        'title' => "Horses",
+        'author' => "Patti Smith",
+        'year' => 1975,
+        'poster' => "https://static.billboard.com/files/media/Patti-Smith-Horses-album-covers-billboard-1000x1000-compressed.jpg"
     ]
 
 ]
