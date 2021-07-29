@@ -5,7 +5,8 @@ const app = new Vue(
             url: window.location.href + '/../api/api-records.php',
             records:[],
             genres:[],
-            selected:''
+            selected:'',
+            loading:true
         },
 
         computed:{
@@ -26,7 +27,8 @@ const app = new Vue(
                 .get(this.url)
                 .then(response => {
                     console.log(response.data);
-                    this.records = response.data
+                    this.records = response.data;
+                    this.loading = false;
 
                     response.data.forEach(element => {
                         if (!this.genres.includes(element.genre)) {

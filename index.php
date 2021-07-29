@@ -36,9 +36,9 @@
 
         <main>
 
-        <div class="container main-container">
+        <div class="container main-container" >
     
-            <div class="card" v-for="record in filterRecords">
+            <div class="card" v-for="record in filterRecords" v-if="!loading">
 
                 <!-- card img-box -->
                 <div class="card_img">
