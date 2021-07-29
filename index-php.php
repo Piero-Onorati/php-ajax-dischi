@@ -39,14 +39,14 @@ include __DIR__.'/database/db.php'
     
                     <!-- card img-box -->
                     <div class="card_img">
-                        <img src="<?php echo $record['poster'];?>" alt="">
+                        <img src="<?= $record['poster'];?>" alt="<?= $record['title'];?>">
                     </div>
     
                     <!-- card-text -->
                     <div class="card_text">
-                        <h3><?php echo $record['title'];?></h3>
-                        <h4><?php echo $record['author'];?></h4> 
-                        <span><?php echo $record['year'];?></span>     
+                        <h3><?= $record['title'];?></h3>
+                        <h4><?= $record['author'];?></h4> 
+                        <span><?= $record['year'];?></span>     
                     </div>
         
                 </div>
