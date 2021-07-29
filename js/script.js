@@ -41,6 +41,6 @@ const app = new Vue(
                 .catch(error=>{
                     console.log(error);
                 });
-        }
+        },
     }
 );

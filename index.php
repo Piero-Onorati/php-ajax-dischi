@@ -22,9 +22,9 @@
 
         <header>
             <div class="container header-container">
-                <div class="img-box">
+                <a href="#" class="img-box">
                     <img src="img/spotify-logo.png" alt="logo">
-                </div>
+                </a>
                 <div class="select">
                 <select v-model="selected">
                     <option >All</option>
