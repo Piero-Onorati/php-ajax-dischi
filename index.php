@@ -14,16 +14,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Vue CDN -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <title>Document</title>
+    <title>Records</title>
 </head>
 <body>
 
     <div id="app">
 
         <header>
-            <div class="container">
+            <div class="container header-container">
                 <div class="img-box">
                     <img src="img/spotify-logo.png" alt="logo">
+                </div>
+                <div class="select">
+                <select v-model="selected">
+                    <option >All</option>
+                    <option v-for="genre in genres">{{genre}}</option>
+                </select>
                 </div>
             </div>
         </header>
@@ -32,7 +38,7 @@
 
         <div class="container main-container">
     
-            <div class="card" v-for="record in records">
+            <div class="card" v-for="record in filterRecords">
 
                 <!-- card img-box -->
                 <div class="card_img">
@@ -42,7 +48,7 @@
                 <!-- card-text -->
                 <div class="card_text">
                     <h3>{{record.title}}</h3>
-                    <h4>{{record.author}</h4> 
+                    <h4>{{record.author}}</h4> 
                     <span>{{record.year}}</span>     
                 </div>
     

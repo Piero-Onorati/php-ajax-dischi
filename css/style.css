@@ -23,12 +23,29 @@ header{
     z-index: 10;
 }
 
-.img-box{
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container .img-box{
     height: 40px;
 }
 
-.img-box img{
+.header-container .img-box img{
     height: 100%;
+}
+.header-container select{
+    background-color: #333;
+    color: lightgray;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    border-radius: 3px;
+    width: 100px;
+    transition: width .3s;
 }
 
 main{
@@ -55,7 +72,10 @@ main{
 		rgba(65, 65, 65, 0.2)
 	);
 }
-
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.32);
+}
 .card:hover  .card_img img{
     filter: blur(2px);
 }
@@ -96,4 +116,3 @@ main{
     font-size: 14px;
     font-weight: 300;
 }
-
